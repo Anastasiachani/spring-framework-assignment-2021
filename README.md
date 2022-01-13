@@ -57,4 +57,4 @@ Clone Project into IntelliJ(στην γραμμή εργαλειών της εφ
 
 Git -> Clone  
 
-και URL:  https://github.com/Anastasiachani/spring-framework-assignment-2021
+και URL:  https://github.com/Anastasiachani/spring-framework-assignment-2021/tree/master
