@@ -34,9 +34,8 @@
             <c:forEach var="user" items="${users}">
 
                 <tr>
-                    <td>${user.firstName}</td>
-                    <td>${user.lastName}</td>
                     <td>${user.email}</td>
+                    <td>${users.passwd}</td>
                 </tr>
             </c:forEach>
         </table>

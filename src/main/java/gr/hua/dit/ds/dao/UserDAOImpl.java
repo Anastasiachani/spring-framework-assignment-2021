@@ -23,9 +23,9 @@ public class UserDAOImpl {
 
 
         // execute the query and get the results list
-        List<User> users = query.getResultList();
+        List<User> user = query.getResultList();
 
         //return the results
-        return users;
+        return user;
     }
 }

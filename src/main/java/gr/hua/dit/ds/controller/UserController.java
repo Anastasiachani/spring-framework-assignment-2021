@@ -10,18 +10,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
+@SuppressWarnings("ALL")
 @Controller
 @RequestMapping("/users")
 public class UserController {
 
     @Autowired
-    private UserDAO userDAO;
+    private UserDAO usersDAO;
     private Object users;
 
 
     @GetMapping("/")
-    public String listStudents(Model model) {
-        List<User> students = userDAO.geUsers();
+    public String listUser(Model model) {
+        List<User> users = usersDAO.geUsers();
         model.addAttribute("users",users);
         return "users";
 

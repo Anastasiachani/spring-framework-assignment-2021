@@ -4,5 +4,5 @@ import gr.hua.dit.ds.entity.User;
 
 import java.util.List;
 public interface UserDAO {
-    public List<User> geUsers();
+    List<User> geUsers();
 }
